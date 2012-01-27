@@ -20,6 +20,8 @@ import java.util.TimeZone;
  * stored in milliseconds since the Java epoch.  This may be the case if they
  * do not have a complete daylight savings or time zone database.
  *
+ * Not thread-safe.
+ *
  * @author Matt Bastress
  */
 public class LocalDateTime implements Serializable {
